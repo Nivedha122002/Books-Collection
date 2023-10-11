@@ -1,0 +1,36 @@
+video{
+     position: fixed;
+     top: 70%;
+     left: 70%;
+     margin-top:-450px;
+     margin-left: -980px;
+     z-index: 1;
+}
+div{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 450px;
+    margin-top: 20%;
+    text-align: center;
+    background-color: beige;
+    padding: 15px 5px;
+    border-radius: 25px;
+}
+h1{
+    font-size: 50px;
+}
+a{
+    display:inline-block;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: blue;
+}
+a:hover{
+    background-color: red;
+    box-shadow: 32px 13px 93px 26px rgba(0,0,0,0.81);
+-webkit-box-shadow: 32px 13px 93px 26px rgba(0,0,0,0.81);
+-moz-box-shadow: 32px 13px 93px 26px rgba(0,0,0,0.81);
+}
